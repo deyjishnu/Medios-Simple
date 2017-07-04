@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/library_music"
+            android:icon="@drawable/ic_library_music"
+            android:title="My Library" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/product_tour"
+            android:icon="@drawable/ic_product_tour"
+            android:title="Product Tour" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_about"
+            android:title="About" />
+        <item
+            android:id="@+id/help_feedback"
+            android:icon="@drawable/ic_help_feedback"
+            android:title="Help &amp; Feedback" />
+    </group>
+
+</menu>

@@ -1,6 +1,7 @@
 package com.amigos.android.medios;
 
 import android.Manifest;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.FloatRange;
 import android.support.annotation.Nullable;
@@ -93,6 +94,8 @@ public class IntroActivity extends MaterialIntroActivity{
     @Override
     public void onFinish() {
         super.onFinish();
-        Toast.makeText(this, "Try this library in your project! :)", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        finish();
     }
 }

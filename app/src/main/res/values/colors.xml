@@ -18,6 +18,8 @@
 
     <color name="custom_slide_background">#3F51B5</color>
     <color name="custom_slide_buttons">#1A237E</color>
+    <color name="foreground_material_light">#000000</color>
+    <color name="background_material_light">#fafafa</color>
 
     <!--Splash Screen-->
     <item name="splash_background" type="color">@color/colorPrimary</item>

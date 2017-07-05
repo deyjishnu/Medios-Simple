@@ -21,10 +21,16 @@ public class SplashActivity extends AppCompatActivity {
         if (prefManager.isFirstTimeLaunch()) {
             // If 'First Time Launch'
             prefManager.setFirstTimeLaunch(false);
-            TaskStackBuilder.create(this)
+            /*TaskStackBuilder.create(this)
                     .addNextIntentWithParentStack(new Intent(this, MainActivity.class))
                     .addNextIntent(new Intent(this, IntroActivity.class))
-                    .startActivities();
+                    .startActivities();*/
+
+            //
+            Intent intent = new Intent(this, IntroActivity.class);
+            startActivity(intent);
+            finish();
+            //
         }
 
         else {
